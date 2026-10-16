@@ -96,7 +96,7 @@
   <circle class="dot-red" cx="24" cy="24" r="6"/>
   <circle class="dot-yellow" cx="44" cy="24" r="6"/>
   <circle class="dot-green" cx="64" cy="24" r="6"/>
-  <text class="t title" x="90" y="29">.github/workflows/harmain_readme.yml — bash — 920x440</text>
+  <text class="t title" x="90" y="29">.github/workflows/harmain_readme.yml - bash - 920x440</text>
   <line x1="16" y1="44" x2="904" y2="44" stroke="#30363d" stroke-width="1"/>
 
   <!-- Command 1: $ ls -->

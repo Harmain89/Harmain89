@@ -31,14 +31,14 @@
 
 I engineer **cloud-native infrastructure, autonomous AI agent pipelines, and resilient full-stack systems** that empower modern businesses to automate operations, scale seamlessly, and operate with high reliability in production. My work sits at the convergence of **DevOps automation, AI orchestration, cloud architectures, and robust backend engineering**.
 
-- **DevOps & cloud infrastructure** — design, deploy, and manage production clusters on AWS and GCP using Docker, Kubernetes, Terraform, and Linux administration
-- **CI/CD & release pipelines** — automate delivery with GitHub Actions, GitLab CI/CD, Jenkins, and containerized deployment workflows
-- **AI agent orchestration** — architect autonomous multi-agent pipelines with n8n, LangChain, OpenAI GPT-4o, Make, and Zapier
-- **Voice & conversational AI** — deploy real-time telephony agents using Vapi, Deepgram speech-to-text, and dynamic function calling
-- **RAG & knowledge retrieval** — eliminate hallucinations with Supabase pgvector, document chunking, and semantic embeddings
-- **Backend & APIs** — engineer high-throughput APIs and microservices with Python, FastAPI, PHP, Laravel, Node.js, and Express
-- **Observability & reliability** — monitor distributed systems using Prometheus, Grafana, ELK, and container health checks
-- **Full-stack web applications** — craft responsive, conversion-focused interfaces with React, Vue.js, TypeScript, and Tailwind CSS
+- **DevOps & cloud infrastructure** - design, deploy, and manage production clusters on AWS and GCP using Docker, Kubernetes, Terraform, and Linux administration
+- **CI/CD & release pipelines** - automate delivery with GitHub Actions, GitLab CI/CD, Jenkins, and containerized deployment workflows
+- **AI agent orchestration** - architect autonomous multi-agent pipelines with n8n, LangChain, OpenAI GPT-4o, Make, and Zapier
+- **Voice & conversational AI** - deploy real-time telephony agents using Vapi, Deepgram speech-to-text, and dynamic function calling
+- **RAG & knowledge retrieval** - eliminate hallucinations with Supabase pgvector, document chunking, and semantic embeddings
+- **Backend & APIs** - engineer high-throughput APIs and microservices with Python, FastAPI, PHP, Laravel, Node.js, and Express
+- **Observability & reliability** - monitor distributed systems using Prometheus, Grafana, ELK, and container health checks
+- **Full-stack web applications** - craft responsive, conversion-focused interfaces with React, Vue.js, TypeScript, and Tailwind CSS
 
 I specialize in taking intricate business workflows and turning them into fault-tolerant, scalable systems that run 24/7 with zero human intervention.
 
