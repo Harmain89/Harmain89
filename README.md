@@ -56,8 +56,25 @@ I specialize in taking intricate business workflows and turning them into fault-
 
 ### 🚀 Languages - Frameworks - Tools - Libraries - Workspace 🚀
 
+![Skills and tools](https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,jenkins,terraform,linux,bash,git,githubactions,github,gitlab,python,php,laravel,js,ts,react,vue,nodejs,express,fastapi,tailwind,redux,mysql,postgres,mongodb,redis,supabase,postman,powershell,nginx,vscode,ubuntu,vercel,grafana,prometheus)
+
 <p align="center">
-  <img src="./assets/skills-animated.svg" alt="Languages - Frameworks - Tools - Libraries - Workspace" width="100%" />
+  <img src="https://img.shields.io/badge/Dokploy-1E293B?style=flat&logo=docker&logoColor=38BDF8" alt="Dokploy" />
+  <img src="https://img.shields.io/badge/Coolify-6B21A8?style=flat&logo=server&logoColor=white" alt="Coolify" />
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white" alt="Terraform" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white" alt="Laravel" />
+  <img src="https://img.shields.io/badge/CodeIgniter-EE4623?style=flat&logo=codeigniter&logoColor=white" alt="CodeIgniter" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white" alt="Supabase" />
+  <img src="https://img.shields.io/badge/Terminal_/_Bash-4EAA25?style=flat&logo=gnubash&logoColor=white" alt="Terminal" />
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white" alt="n8n" />
+  <img src="https://img.shields.io/badge/OpenAI_GPT--4o-412991?style=flat&logo=openai&logoColor=white" alt="OpenAI" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=chainlink&logoColor=white" alt="LangChain" />
+  <img src="https://img.shields.io/badge/Vapi_Voice_AI-0A66C2?style=flat&logo=signal&logoColor=white" alt="Vapi Voice AI" />
+  <img src="https://img.shields.io/badge/Make-6D00CC?style=flat&logo=make&logoColor=white" alt="Make" />
+  <img src="https://img.shields.io/badge/Zapier-FF4A00?style=flat&logo=zapier&logoColor=white" alt="Zapier" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" alt="FastAPI" />
 </p>
 
 ## Featured Projects
