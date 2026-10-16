@@ -53,9 +53,9 @@
   <g opacity="0">
     <animate attributeName="opacity" values="0;1;0;1;0;1" keyTimes="0;0.2;0.4;0.6;0.8;1" begin="1.6s" dur="1.1s" fill="freeze"/>
     <text class="t file" x="24" y="108">about_me.txt</text>
-    <text class="t file" x="180" y="108">ai_agents.py</text>
-    <text class="t file" x="330" y="108">n8n_workflows.json</text>
-    <text class="t file" x="530" y="108">fullstack_arch.yml</text>
+    <text class="t file" x="180" y="108">ai_agent.py</text>
+    <text class="t file" x="330" y="108">devops_ci_cd.yml</text>
+    <text class="t file" x="530" y="108">cloud_arch.tf</text>
   </g>
 
   <!-- Command 2: cat about_me.txt -->
@@ -72,30 +72,30 @@
   <!-- Output 2: Section 1 AI & Automation -->
   <g opacity="0">
     <animate attributeName="opacity" values="0;1;0;1;0;1" keyTimes="0;0.2;0.4;0.6;0.8;1" begin="5.3s" dur="1.0s" fill="freeze"/>
-    <text class="t dim" x="24" y="180"># AUTONOMOUS SYSTEMS &amp; AI AGENTS</text>
-    <text class="t head" x="24" y="204">AI Agent Orchestration &amp; RAG Architecture</text>
-    <text class="t skill" x="24" y="226">n8n  ·  Make  ·  LangChain  ·  OpenAI GPT-4o  ·  Supabase pgvector  ·  Vapi Voice AI  ·  Deepgram</text>
+    <text class="t dim" x="24" y="180"># AI CLOUD &amp; AUTONOMOUS SYSTEMS</text>
+    <text class="t head" x="24" y="204">AI Agent Orchestration &amp; Intelligent Automation</text>
+    <text class="t skill" x="24" y="226">n8n  ·  LangChain  ·  OpenAI GPT-4o  ·  Supabase pgvector  ·  Vapi Voice AI  ·  Deepgram</text>
   </g>
 
-  <!-- Output 2: Section 2 Backend -->
+  <!-- Output 2: Section 2 DevOps & Cloud -->
   <g opacity="0">
     <animate attributeName="opacity" values="0;1;0;1;0;1" keyTimes="0;0.2;0.4;0.6;0.8;1" begin="6.5s" dur="1.0s" fill="freeze"/>
-    <text class="t head" x="24" y="260">Backend Engineering &amp; High-Throughput APIs</text>
-    <text class="t skill" x="24" y="282">Python  ·  FastAPI  ·  PHP  ·  Laravel  ·  Node.js  ·  Express  ·  Microservices  ·  Webhooks</text>
+    <text class="t head" x="24" y="260">DevOps, Cloud Infrastructure &amp; CI/CD</text>
+    <text class="t skill" x="24" y="282">Docker  ·  Kubernetes  ·  GitHub Actions  ·  Terraform  ·  AWS  ·  GCP  ·  Linux  ·  Prometheus</text>
   </g>
 
-  <!-- Output 2: Section 3 Frontend & Cloud -->
+  <!-- Output 2: Section 3 Backend -->
   <g opacity="0">
     <animate attributeName="opacity" values="0;1;0;1;0;1" keyTimes="0;0.2;0.4;0.6;0.8;1" begin="7.7s" dur="1.0s" fill="freeze"/>
-    <text class="t head" x="24" y="316">Full-Stack Platforms &amp; Modern UI/UX</text>
-    <text class="t skill" x="24" y="338">React.js  ·  Vue.js  ·  TypeScript  ·  Tailwind CSS  ·  Redux  ·  Livewire  ·  REST APIs</text>
+    <text class="t head" x="24" y="316">Backend Engineering &amp; High-Throughput APIs</text>
+    <text class="t skill" x="24" y="338">Python  ·  FastAPI  ·  PHP  ·  Laravel  ·  Node.js  ·  Express  ·  Microservices  ·  Webhooks</text>
   </g>
 
-  <!-- Output 2: Section 4 Data & Cloud -->
+  <!-- Output 2: Section 4 Data & Full-Stack -->
   <g opacity="0">
     <animate attributeName="opacity" values="0;1;0;1;0;1" keyTimes="0;0.2;0.4;0.6;0.8;1" begin="8.9s" dur="1.0s" fill="freeze"/>
-    <text class="t head" x="24" y="372">Data Stores, Caching &amp; Cloud Infrastructure</text>
-    <text class="t skill" x="24" y="394">PostgreSQL  ·  MySQL  ·  MongoDB  ·  Redis Cache  ·  Docker  ·  AWS  ·  GCP  ·  Linux / Nginx</text>
+    <text class="t head" x="24" y="372">Data Stores, Caching &amp; Full-Stack Systems</text>
+    <text class="t skill" x="24" y="394">PostgreSQL  ·  MySQL  ·  MongoDB  ·  Redis Cache  ·  React.js  ·  TypeScript  ·  Tailwind CSS</text>
   </g>
 
   <!-- Ending Prompt with Blinking Cursor -->

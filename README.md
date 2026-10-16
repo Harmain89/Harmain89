@@ -1,6 +1,6 @@
 <h1 align="center">Hi! I am Harmain Rizwan 👋</h1>
 
-<h3 align="center">AI Agents &amp; Workflow Automation Architect | Senior Full-Stack Developer | Python &amp; Cloud Integrations</h3>
+<h3 align="center">AI Cloud Architect &amp; DevOps Engineer | Autonomous Agent Orchestration | Senior Full-Stack Developer</h3>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/harmain-rizwan-7a4328440/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/ai-automation-hero.svg" alt="AI &amp; Workflow Automation Architecture" width="100%" />
+  <img src="./assets/devops-hero.gif" alt="DevOps, Cloud &amp; CI/CD Automation" width="100%" />
 </p>
 
 <h2 align="center">
@@ -26,19 +26,25 @@
 </h2>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&width=780&lines=AI+Agents+%26+Workflow+Automation+Architect;Senior+Full-Stack+Engineer+(Laravel+%26+MERN);Autonomous+n8n+Workflows+%26+LangChain+Systems;Python+APIs%2C+FastAPI+%26+Microservices;RAG+Pipelines%2C+Vector+Embeddings+%26+pgvector;Real-Time+Voice+AI+Telephony+(Vapi+%2B+Deepgram)" alt="Typing roles" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&width=800&lines=AI+Cloud+Architect+%26+DevOps+Engineer;Autonomous+Agent+Orchestration+%26+n8n;Cloud-Native+Infrastructure+(AWS+%7C+GCP+%7C+Kubernetes);CI%2FCD+Automation%2C+Docker+%26+Terraform;RAG+Pipelines%2C+Vector+Databases+%26+pgvector;Senior+Full-Stack+Architect+(Laravel+%26+MERN)" alt="Typing roles" />
 </p>
 
-I build **autonomous AI agents, enterprise workflow automations, and resilient full-stack systems** that transform manual business operations into self-running infrastructure. My work bridges the gap between modern LLM intelligence, event-driven webhooks, and robust backend engineering.
+I engineer **cloud-native infrastructure, autonomous AI agent pipelines, and resilient full-stack systems** that empower modern businesses to automate operations, scale seamlessly, and operate with high reliability in production. My work sits at the convergence of **DevOps automation, AI orchestration, cloud architectures, and robust backend engineering**.
 
-- **AI & workflow automation** — architect autonomous multi-agent pipelines with n8n, LangChain, OpenAI GPT-4o, Make, and Zapier
+- **DevOps & cloud infrastructure** — design, deploy, and manage production clusters on AWS and GCP using Docker, Kubernetes, Terraform, and Linux administration
+- **CI/CD & release pipelines** — automate delivery with GitHub Actions, GitLab CI/CD, Jenkins, and containerized deployment workflows
+- **AI agent orchestration** — architect autonomous multi-agent pipelines with n8n, LangChain, OpenAI GPT-4o, Make, and Zapier
 - **Voice & conversational AI** — deploy real-time telephony agents using Vapi, Deepgram speech-to-text, and dynamic function calling
 - **RAG & knowledge retrieval** — eliminate hallucinations with Supabase pgvector, document chunking, and semantic embeddings
 - **Backend & APIs** — engineer high-throughput APIs and microservices with Python, FastAPI, PHP, Laravel, Node.js, and Express
+- **Observability & reliability** — monitor distributed systems using Prometheus, Grafana, ELK, and container health checks
 - **Full-stack web applications** — craft responsive, conversion-focused interfaces with React, Vue.js, TypeScript, and Tailwind CSS
-- **Databases & cloud systems** — design and operate environments with PostgreSQL, MySQL, MongoDB, Redis, Docker, AWS, and GCP
 
 I specialize in taking intricate business workflows and turning them into fault-tolerant, scalable systems that run 24/7 with zero human intervention.
+
+<p align="center">
+  <img src="./assets/ai-automation-hero.svg" alt="Autonomous AI Agent &amp; Workflow Architecture" width="100%" />
+</p>
 
 <p align="center">
   <img src="./assets/harmain-readme.yml.svg" alt="harmain_readme.yml" width="100%" />
@@ -50,7 +56,7 @@ I specialize in taking intricate business workflows and turning them into fault-
 
 ### 🚀 Languages - Frameworks - Tools - Libraries - Workspace 🚀
 
-![Skills and tools](https://skillicons.dev/icons?i=python,php,laravel,js,ts,react,vue,nodejs,express,fastapi,tailwind,redux,mysql,postgres,mongodb,redis,supabase,docker,aws,gcp,git,githubactions,github,postman,linux,bash,nginx,vscode,ubuntu,vercel)
+![Skills and tools](https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,jenkins,terraform,linux,git,githubactions,github,gitlab,python,php,laravel,js,ts,react,vue,nodejs,express,fastapi,tailwind,redux,mysql,postgres,mongodb,redis,supabase,postman,nginx,vscode,ubuntu,vercel,bash,grafana,prometheus)
 
 <p align="center">
   <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white" alt="n8n" />
@@ -59,13 +65,15 @@ I specialize in taking intricate business workflows and turning them into fault-
   <img src="https://img.shields.io/badge/Make-6D00CC?style=flat&logo=make&logoColor=white" alt="Make" />
   <img src="https://img.shields.io/badge/Zapier-FF4A00?style=flat&logo=zapier&logoColor=white" alt="Zapier" />
   <img src="https://img.shields.io/badge/Vapi_Voice_AI-0A66C2?style=flat&logo=signal&logoColor=white" alt="Vapi Voice AI" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/Supabase_pgvector-3ECF8E?style=flat&logo=supabase&logoColor=white" alt="Supabase pgvector" />
 </p>
 
 ## Featured Projects
 
-Hands-on AI automation, agentic workflows, voice telephony, and full-stack systems covering n8n, Python, Laravel, and cloud architectures. Code links go to public GitHub repositories. Demos go to live deployments.
+Hands-on AI automation, agentic workflows, voice telephony, and cloud systems covering DevOps, Kubernetes, CI/CD, n8n, Python, Laravel, and cloud architectures. Code links go to public GitHub repositories. Demos go to live deployments.
 
 |                                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
