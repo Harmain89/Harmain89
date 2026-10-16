@@ -4,16 +4,68 @@
       <stop offset="0%" stop-color="#0a121e"/>
       <stop offset="100%" stop-color="#0d1b2a"/>
     </linearGradient>
-    <clipPath id="typeLs">
-      <rect x="42" y="60" width="0" height="24">
-        <animate attributeName="width" values="0;10;20;30" keyTimes="0;0.33;0.66;1" calcMode="discrete" begin="0.6s" dur="0.7s" fill="freeze"/>
+
+    <!-- Clip paths for typewriter effects -->
+    <clipPath id="clipLs">
+      <rect x="42" y="62" width="0" height="22">
+        <animate attributeName="width" values="0;0;28;28;28;0" keyTimes="0;0.027;0.055;0.932;0.960;1" dur="22.0s" repeatCount="indefinite" />
       </rect>
     </clipPath>
-    <clipPath id="typeCat">
-      <rect x="42" y="128" width="0" height="24">
-        <animate attributeName="width" values="0;18;36;54;72;90;108;126;144;162;180;198;216" keyTimes="0;0.08;0.16;0.24;0.32;0.40;0.48;0.56;0.64;0.72;0.80;0.90;1" calcMode="discrete" begin="3.4s" dur="1.6s" fill="freeze"/>
+
+    <clipPath id="clipCat">
+      <rect x="42" y="130" width="0" height="22">
+        <animate attributeName="width" values="0;0;190;190;190;0" keyTimes="0;0.100;0.173;0.932;0.960;1" dur="22.0s" repeatCount="indefinite" />
       </rect>
     </clipPath>
+
+    <!-- Section 1 Typewriter Clips -->
+    <clipPath id="clipSec1Head">
+      <rect x="24" y="188" width="0" height="22">
+        <animate attributeName="width" values="0;0;450;450;450;0" keyTimes="0;0.191;0.255;0.932;0.960;1" dur="22.0s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="clipSec1Skill">
+      <rect x="24" y="210" width="0" height="24">
+        <animate attributeName="width" values="0;0;850;850;850;0" keyTimes="0;0.255;0.318;0.932;0.960;1" dur="22.0s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+
+    <!-- Section 2 Typewriter Clips -->
+    <clipPath id="clipSec2Head">
+      <rect x="24" y="244" width="0" height="22">
+        <animate attributeName="width" values="0;0;380;380;380;0" keyTimes="0;0.336;0.400;0.932;0.960;1" dur="22.0s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="clipSec2Skill">
+      <rect x="24" y="266" width="0" height="24">
+        <animate attributeName="width" values="0;0;850;850;850;0" keyTimes="0;0.400;0.464;0.932;0.960;1" dur="22.0s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+
+    <!-- Section 3 Typewriter Clips -->
+    <clipPath id="clipSec3Head">
+      <rect x="24" y="300" width="0" height="22">
+        <animate attributeName="width" values="0;0;440;440;440;0" keyTimes="0;0.482;0.545;0.932;0.960;1" dur="22.0s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="clipSec3Skill">
+      <rect x="24" y="322" width="0" height="24">
+        <animate attributeName="width" values="0;0;850;850;850;0" keyTimes="0;0.545;0.609;0.932;0.960;1" dur="22.0s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+
+    <!-- Section 4 Typewriter Clips -->
+    <clipPath id="clipSec4Head">
+      <rect x="24" y="356" width="0" height="22">
+        <animate attributeName="width" values="0;0;420;420;420;0" keyTimes="0;0.627;0.691;0.932;0.960;1" dur="22.0s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="clipSec4Skill">
+      <rect x="24" y="378" width="0" height="24">
+        <animate attributeName="width" values="0;0;850;850;850;0" keyTimes="0;0.691;0.755;0.932;0.960;1" dur="22.0s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+
     <style>
       .t { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Courier New", monospace; }
       .title { fill: #58a6ff; font-size: 14px; font-weight: 700; }
@@ -21,16 +73,24 @@
       .cmd { fill: #e6edf3; font-size: 15px; }
       .file { fill: #79c0ff; font-size: 14px; }
       .head { fill: #58a6ff; font-size: 15px; font-weight: 700; }
-      .skill { fill: #ff7b72; font-size: 14px; }
+      .skill { fill: #ff7b72; font-size: 13.5px; }
       .dim { fill: #8b949e; font-size: 13px; }
       .dot-red { fill: #ff5f56; }
       .dot-yellow { fill: #ffbd2e; }
       .dot-green { fill: #27c93f; }
+
+      @keyframes frameGlow {
+        0%, 100% { stroke: #30363d; }
+        50% { stroke: #388bfd; }
+      }
+      .window-rect {
+        animation: frameGlow 8s ease-in-out infinite;
+      }
     </style>
   </defs>
 
   <!-- Window Frame -->
-  <rect width="920" height="440" rx="10" fill="url(#terminalBg)" stroke="#30363d" stroke-width="1.5"/>
+  <rect class="window-rect" width="920" height="440" rx="10" fill="url(#terminalBg)" stroke="#30363d" stroke-width="1.5"/>
   
   <!-- Window Controls -->
   <circle class="dot-red" cx="24" cy="24" r="6"/>
@@ -39,71 +99,64 @@
   <text class="t title" x="90" y="29">.github/workflows/harmain_readme.yml — bash — 920x440</text>
   <line x1="16" y1="44" x2="904" y2="44" stroke="#30363d" stroke-width="1"/>
 
-  <!-- Command 1: ls -->
-  <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.15s" fill="freeze"/>
+  <!-- Command 1: $ ls -->
+  <g>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.020;0.955;1" dur="22.0s" repeatCount="indefinite" />
     <text class="t p" x="24" y="78">$</text>
+    <text class="t cmd" x="42" y="78" clip-path="url(#clipLs)">ls</text>
   </g>
-  <text class="t cmd" x="42" y="78" clip-path="url(#typeLs)">ls</text>
-  <rect x="74" y="64" width="8" height="16" fill="#3fb950" opacity="0">
-    <animate attributeName="opacity" values="0;1;0;1;0;1;0" begin="0.6s" dur="0.7s" fill="freeze"/>
-  </rect>
 
-  <!-- Output 1: files -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1;0;1;0;1" keyTimes="0;0.2;0.4;0.6;0.8;1" begin="1.6s" dur="1.1s" fill="freeze"/>
+  <!-- Output 1: File List -->
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.073;0.082;0.955;1" dur="22.0s" repeatCount="indefinite" />
     <text class="t file" x="24" y="108">about_me.txt</text>
     <text class="t file" x="180" y="108">ai_agent.py</text>
     <text class="t file" x="330" y="108">devops_ci_cd.yml</text>
     <text class="t file" x="530" y="108">cloud_arch.tf</text>
   </g>
 
-  <!-- Command 2: cat about_me.txt -->
-  <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="3.2s" dur="0.15s" fill="freeze"/>
+  <!-- Command 2: $ cat about_me.txt -->
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.095;0.105;0.955;1" dur="22.0s" repeatCount="indefinite" />
     <text class="t p" x="24" y="146">$</text>
-  </g>
-  <text class="t cmd" x="42" y="146" clip-path="url(#typeCat)">cat about_me.txt</text>
-  <rect x="58" y="132" width="8" height="16" fill="#3fb950" opacity="0">
-    <animate attributeName="x" values="58;76;94;112;130;148;166;184;202;220;238;256" begin="3.4s" dur="1.6s" calcMode="discrete" fill="freeze"/>
-    <animate attributeName="opacity" values="0;1;0;1;0;1;0;1;0;1;0;1;0" begin="3.4s" dur="1.6s" fill="freeze"/>
-  </rect>
-
-  <!-- Output 2: Section 1 AI & Automation -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1;0;1;0;1" keyTimes="0;0.2;0.4;0.6;0.8;1" begin="5.3s" dur="1.0s" fill="freeze"/>
-    <text class="t dim" x="24" y="180"># AI CLOUD &amp; AUTONOMOUS SYSTEMS</text>
-    <text class="t head" x="24" y="204">AI Agent Orchestration &amp; Intelligent Automation</text>
-    <text class="t skill" x="24" y="226">n8n  ·  LangChain  ·  OpenAI GPT-4o  ·  Supabase pgvector  ·  Vapi Voice AI  ·  Deepgram</text>
+    <text class="t cmd" x="42" y="146" clip-path="url(#clipCat)">cat about_me.txt</text>
   </g>
 
-  <!-- Output 2: Section 2 DevOps & Cloud -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1;0;1;0;1" keyTimes="0;0.2;0.4;0.6;0.8;1" begin="6.5s" dur="1.0s" fill="freeze"/>
-    <text class="t head" x="24" y="260">DevOps, Cloud Infrastructure &amp; CI/CD</text>
-    <text class="t skill" x="24" y="282">Docker  ·  Kubernetes  ·  GitHub Actions  ·  Terraform  ·  AWS  ·  GCP  ·  Linux  ·  Prometheus</text>
+  <!-- Output 2: Section 1 AI Cloud & Autonomous Systems -->
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.180;0.191;0.955;1" dur="22.0s" repeatCount="indefinite" />
+    <text class="t dim" x="24" y="178"># AI CLOUD &amp; AUTONOMOUS SYSTEMS</text>
+    <text class="t head" x="24" y="204" clip-path="url(#clipSec1Head)">AI Agent Orchestration &amp; Intelligent Automation</text>
+    <text class="t skill" x="24" y="226" clip-path="url(#clipSec1Skill)">n8n  ·  LangChain  ·  OpenAI GPT-4o  ·  Supabase pgvector  ·  Vapi Voice AI  ·  Deepgram</text>
   </g>
 
-  <!-- Output 2: Section 3 Backend -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1;0;1;0;1" keyTimes="0;0.2;0.4;0.6;0.8;1" begin="7.7s" dur="1.0s" fill="freeze"/>
-    <text class="t head" x="24" y="316">Backend Engineering &amp; High-Throughput APIs</text>
-    <text class="t skill" x="24" y="338">Python  ·  FastAPI  ·  PHP  ·  Laravel  ·  Node.js  ·  Express  ·  Microservices  ·  Webhooks</text>
+  <!-- Output 2: Section 2 DevOps, Cloud & CI/CD -->
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.320;0.336;0.955;1" dur="22.0s" repeatCount="indefinite" />
+    <text class="t head" x="24" y="260" clip-path="url(#clipSec2Head)">DevOps, Cloud Infrastructure &amp; CI/CD</text>
+    <text class="t skill" x="24" y="282" clip-path="url(#clipSec2Skill)">Docker  ·  Kubernetes  ·  GitHub Actions  ·  Terraform  ·  Dokploy  ·  Coolify  ·  AWS  ·  GCP  ·  Linux</text>
   </g>
 
-  <!-- Output 2: Section 4 Data & Full-Stack -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1;0;1;0;1" keyTimes="0;0.2;0.4;0.6;0.8;1" begin="8.9s" dur="1.0s" fill="freeze"/>
-    <text class="t head" x="24" y="372">Data Stores, Caching &amp; Full-Stack Systems</text>
-    <text class="t skill" x="24" y="394">PostgreSQL  ·  MySQL  ·  MongoDB  ·  Redis Cache  ·  React.js  ·  TypeScript  ·  Tailwind CSS</text>
+  <!-- Output 2: Section 3 Backend & High-Throughput APIs -->
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.470;0.482;0.955;1" dur="22.0s" repeatCount="indefinite" />
+    <text class="t head" x="24" y="316" clip-path="url(#clipSec3Head)">Backend Engineering &amp; High-Throughput APIs</text>
+    <text class="t skill" x="24" y="338" clip-path="url(#clipSec3Skill)">Python  ·  FastAPI  ·  PHP  ·  Laravel  ·  CodeIgniter  ·  Node.js  ·  Express  ·  Microservices  ·  Webhooks</text>
+  </g>
+
+  <!-- Output 2: Section 4 Data Stores & Full-Stack Systems -->
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.610;0.627;0.955;1" dur="22.0s" repeatCount="indefinite" />
+    <text class="t head" x="24" y="372" clip-path="url(#clipSec4Head)">Data Stores, Caching &amp; Full-Stack Systems</text>
+    <text class="t skill" x="24" y="394" clip-path="url(#clipSec4Skill)">Supabase  ·  PostgreSQL  ·  MySQL  ·  MongoDB  ·  Redis Cache  ·  React.js  ·  TypeScript  ·  Tailwind</text>
   </g>
 
   <!-- Ending Prompt with Blinking Cursor -->
-  <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="10.1s" dur="0.15s" fill="freeze"/>
-    <text class="t p" x="24" y="422">$</text>
-    <rect x="42" y="408" width="8" height="16" fill="#3fb950">
-      <animate attributeName="opacity" values="1;0;1" begin="10.2s" dur="1s" repeatCount="indefinite"/>
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.745;0.755;0.955;1" dur="22.0s" repeatCount="indefinite" />
+    <text class="t p" x="24" y="424">$</text>
+    <rect x="42" y="410" width="8" height="16" fill="#3fb950">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
     </rect>
   </g>
 </svg>

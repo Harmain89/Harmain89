@@ -1,0 +1,248 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 471" width="920" height="471">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a121e" />
+      <stop offset="100%" stop-color="#0e1726" />
+    </linearGradient>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Courier New", monospace; }
+      .title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; }
+      .badge-txt { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11.5px; font-weight: 600; fill: #f0f6fc; }
+      
+      @keyframes gentleFloat1 {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-3.5px); }
+      }
+      @keyframes gentleFloat2 {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-4px); }
+      }
+      @keyframes gentleFloat3 {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-3px); }
+      }
+      @keyframes borderScan {
+        0% { stroke: #30363d; }
+        50% { stroke: #58a6ff; }
+        100% { stroke: #30363d; }
+      }
+
+      .card-frame {
+        animation: borderScan 8s ease-in-out infinite;
+      }
+      .float-group-0 { animation: gentleFloat1 4.2s ease-in-out infinite; }
+      .float-group-1 { animation: gentleFloat2 3.8s ease-in-out infinite 0.6s; }
+      .float-group-2 { animation: gentleFloat3 4.5s ease-in-out infinite 1.2s; }
+      .float-group-3 { animation: gentleFloat1 3.9s ease-in-out infinite 1.8s; }
+      .float-group-4 { animation: gentleFloat2 4.3s ease-in-out infinite 2.4s; }
+
+      .badge-box {
+        transition: transform 0.2s, filter 0.2s;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Frame -->
+  <rect width="920" height="471" rx="12" fill="url(#cardBg)" stroke="#30363d" stroke-width="1.5" class="card-frame" />
+  
+  <!-- Header Bar -->
+  <g transform="translate(24, 25)">
+    <circle cx="0" cy="0" r="4.5" fill="#3fb950">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text class="mono" x="12" y="4" fill="#8b949e" font-size="12px" font-weight="600">LIVE TECH STACK, DEVOPS PLATFORMS &amp; WORKSPACE MATRIX</text>
+  </g>
+  <line x1="20" y1="38" x2="900" y2="38" stroke="#21262d" stroke-width="1" />
+
+  <!-- Cloud, DevOps & Self-Hosted PaaS -->
+  <text class="mono title" x="24" y="65" fill="#58a6ff">Cloud, DevOps & Self-Hosted PaaS</text>
+  <g transform="translate(24, 83)" class="float-group-0">
+    <rect class="badge-box" width="75" height="28" rx="6" fill="#2496ED" fill-opacity="0.18" stroke="#2496ED" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#2496ED" />
+    <text class="badge-txt" x="22" y="18">Docker</text>
+  </g>
+  <g transform="translate(109, 83)" class="float-group-1">
+    <rect class="badge-box" width="108" height="28" rx="6" fill="#326CE5" fill-opacity="0.18" stroke="#326CE5" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#326CE5" />
+    <text class="badge-txt" x="22" y="18">Kubernetes</text>
+  </g>
+  <g transform="translate(227, 83)" class="float-group-2">
+    <rect class="badge-box" width="99" height="28" rx="6" fill="#7B42BC" fill-opacity="0.18" stroke="#7B42BC" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#7B42BC" />
+    <text class="badge-txt" x="22" y="18">Terraform</text>
+  </g>
+  <g transform="translate(336, 83)" class="float-group-3">
+    <rect class="badge-box" width="83" height="28" rx="6" fill="#38BDF8" fill-opacity="0.18" stroke="#38BDF8" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#38BDF8" />
+    <text class="badge-txt" x="22" y="18">Dokploy</text>
+  </g>
+  <g transform="translate(429, 83)" class="float-group-4">
+    <rect class="badge-box" width="83" height="28" rx="6" fill="#A855F7" fill-opacity="0.18" stroke="#A855F7" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#A855F7" />
+    <text class="badge-txt" x="22" y="18">Coolify</text>
+  </g>
+  <g transform="translate(522, 83)" class="float-group-0">
+    <rect class="badge-box" width="74" height="28" rx="6" fill="#FF9900" fill-opacity="0.18" stroke="#FF9900" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#FF9900" />
+    <text class="badge-txt" x="22" y="18">AWS</text>
+  </g>
+  <g transform="translate(606, 83)" class="float-group-1">
+    <rect class="badge-box" width="74" height="28" rx="6" fill="#4285F4" fill-opacity="0.18" stroke="#4285F4" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#4285F4" />
+    <text class="badge-txt" x="22" y="18">GCP</text>
+  </g>
+  <g transform="translate(690, 83)" class="float-group-2">
+    <rect class="badge-box" width="83" height="28" rx="6" fill="#D24939" fill-opacity="0.18" stroke="#D24939" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#D24939" />
+    <text class="badge-txt" x="22" y="18">Jenkins</text>
+  </g>
+  <g transform="translate(783, 83)" class="float-group-3">
+    <rect class="badge-box" width="74" height="28" rx="6" fill="#FCC624" fill-opacity="0.18" stroke="#FCC624" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#FCC624" />
+    <text class="badge-txt" x="22" y="18">Linux</text>
+  </g>
+  <g transform="translate(24, 119)" class="float-group-1">
+    <rect class="badge-box" width="148" height="28" rx="6" fill="#4EAA25" fill-opacity="0.18" stroke="#4EAA25" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#4EAA25" />
+    <text class="badge-txt" x="22" y="18">Terminal / Bash</text>
+  </g>
+  <g transform="translate(182, 119)" class="float-group-2">
+    <rect class="badge-box" width="108" height="28" rx="6" fill="#E6522C" fill-opacity="0.18" stroke="#E6522C" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#E6522C" />
+    <text class="badge-txt" x="22" y="18">Prometheus</text>
+  </g>
+  <g transform="translate(300, 119)" class="float-group-3">
+    <rect class="badge-box" width="83" height="28" rx="6" fill="#F46800" fill-opacity="0.18" stroke="#F46800" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#F46800" />
+    <text class="badge-txt" x="22" y="18">Grafana</text>
+  </g>
+
+  <!-- AI Agents & Autonomous Workflow Orchestration -->
+  <text class="mono title" x="24" y="173" fill="#a371f7">AI Agents & Autonomous Workflow Orchestration</text>
+  <g transform="translate(24, 191)" class="float-group-1">
+    <rect class="badge-box" width="74" height="28" rx="6" fill="#EA4B71" fill-opacity="0.18" stroke="#EA4B71" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#EA4B71" />
+    <text class="badge-txt" x="22" y="18">n8n</text>
+  </g>
+  <g transform="translate(108, 191)" class="float-group-2">
+    <rect class="badge-box" width="132" height="28" rx="6" fill="#10A37F" fill-opacity="0.18" stroke="#10A37F" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#10A37F" />
+    <text class="badge-txt" x="22" y="18">OpenAI GPT-4o</text>
+  </g>
+  <g transform="translate(250, 191)" class="float-group-3">
+    <rect class="badge-box" width="99" height="28" rx="6" fill="#22C55E" fill-opacity="0.18" stroke="#22C55E" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#22C55E" />
+    <text class="badge-txt" x="22" y="18">LangChain</text>
+  </g>
+  <g transform="translate(359, 191)" class="float-group-4">
+    <rect class="badge-box" width="132" height="28" rx="6" fill="#38BDF8" fill-opacity="0.18" stroke="#38BDF8" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#38BDF8" />
+    <text class="badge-txt" x="22" y="18">Vapi Voice AI</text>
+  </g>
+  <g transform="translate(501, 191)" class="float-group-0">
+    <rect class="badge-box" width="165" height="28" rx="6" fill="#3ECF8E" fill-opacity="0.18" stroke="#3ECF8E" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#3ECF8E" />
+    <text class="badge-txt" x="22" y="18">Supabase pgvector</text>
+  </g>
+  <g transform="translate(676, 191)" class="float-group-1">
+    <rect class="badge-box" width="74" height="28" rx="6" fill="#6D00CC" fill-opacity="0.18" stroke="#6D00CC" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#6D00CC" />
+    <text class="badge-txt" x="22" y="18">Make</text>
+  </g>
+  <g transform="translate(760, 191)" class="float-group-2">
+    <rect class="badge-box" width="75" height="28" rx="6" fill="#FF4A00" fill-opacity="0.18" stroke="#FF4A00" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#FF4A00" />
+    <text class="badge-txt" x="22" y="18">Zapier</text>
+  </g>
+  <g transform="translate(24, 227)" class="float-group-2">
+    <rect class="badge-box" width="124" height="28" rx="6" fill="#13EF93" fill-opacity="0.18" stroke="#13EF93" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#13EF93" />
+    <text class="badge-txt" x="22" y="18">Deepgram STT</text>
+  </g>
+
+  <!-- Backend & Full-Stack Architecture -->
+  <text class="mono title" x="24" y="281" fill="#3fb950">Backend & Full-Stack Architecture</text>
+  <g transform="translate(24, 299)" class="float-group-2">
+    <rect class="badge-box" width="83" height="28" rx="6" fill="#FF2D20" fill-opacity="0.18" stroke="#FF2D20" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#FF2D20" />
+    <text class="badge-txt" x="22" y="18">Laravel</text>
+  </g>
+  <g transform="translate(117, 299)" class="float-group-3">
+    <rect class="badge-box" width="116" height="28" rx="6" fill="#EE4623" fill-opacity="0.18" stroke="#EE4623" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#EE4623" />
+    <text class="badge-txt" x="22" y="18">CodeIgniter</text>
+  </g>
+  <g transform="translate(243, 299)" class="float-group-4">
+    <rect class="badge-box" width="75" height="28" rx="6" fill="#3776AB" fill-opacity="0.18" stroke="#3776AB" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#3776AB" />
+    <text class="badge-txt" x="22" y="18">Python</text>
+  </g>
+  <g transform="translate(328, 299)" class="float-group-0">
+    <rect class="badge-box" width="83" height="28" rx="6" fill="#009688" fill-opacity="0.18" stroke="#009688" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#009688" />
+    <text class="badge-txt" x="22" y="18">FastAPI</text>
+  </g>
+  <g transform="translate(421, 299)" class="float-group-1">
+    <rect class="badge-box" width="74" height="28" rx="6" fill="#777BB4" fill-opacity="0.18" stroke="#777BB4" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#777BB4" />
+    <text class="badge-txt" x="22" y="18">PHP</text>
+  </g>
+  <g transform="translate(505, 299)" class="float-group-2">
+    <rect class="badge-box" width="83" height="28" rx="6" fill="#5FA04E" fill-opacity="0.18" stroke="#5FA04E" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#5FA04E" />
+    <text class="badge-txt" x="22" y="18">Node.js</text>
+  </g>
+  <g transform="translate(598, 299)" class="float-group-3">
+    <rect class="badge-box" width="83" height="28" rx="6" fill="#64748B" fill-opacity="0.18" stroke="#64748B" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#64748B" />
+    <text class="badge-txt" x="22" y="18">Express</text>
+  </g>
+  <g transform="translate(691, 299)" class="float-group-4">
+    <rect class="badge-box" width="91" height="28" rx="6" fill="#61DAFB" fill-opacity="0.18" stroke="#61DAFB" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#61DAFB" />
+    <text class="badge-txt" x="22" y="18">React.js</text>
+  </g>
+  <g transform="translate(792, 299)" class="float-group-0">
+    <rect class="badge-box" width="75" height="28" rx="6" fill="#4FC08D" fill-opacity="0.18" stroke="#4FC08D" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#4FC08D" />
+    <text class="badge-txt" x="22" y="18">Vue.js</text>
+  </g>
+  <g transform="translate(24, 335)" class="float-group-3">
+    <rect class="badge-box" width="108" height="28" rx="6" fill="#3178C6" fill-opacity="0.18" stroke="#3178C6" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#3178C6" />
+    <text class="badge-txt" x="22" y="18">TypeScript</text>
+  </g>
+  <g transform="translate(142, 335)" class="float-group-4">
+    <rect class="badge-box" width="124" height="28" rx="6" fill="#06B6D4" fill-opacity="0.18" stroke="#06B6D4" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#06B6D4" />
+    <text class="badge-txt" x="22" y="18">Tailwind CSS</text>
+  </g>
+
+  <!-- Databases, Caching & Vector Storage -->
+  <text class="mono title" x="24" y="389" fill="#f0883e">Databases, Caching & Vector Storage</text>
+  <g transform="translate(24, 407)" class="float-group-3">
+    <rect class="badge-box" width="91" height="28" rx="6" fill="#3ECF8E" fill-opacity="0.18" stroke="#3ECF8E" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#3ECF8E" />
+    <text class="badge-txt" x="22" y="18">Supabase</text>
+  </g>
+  <g transform="translate(125, 407)" class="float-group-4">
+    <rect class="badge-box" width="108" height="28" rx="6" fill="#4169E1" fill-opacity="0.18" stroke="#4169E1" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#4169E1" />
+    <text class="badge-txt" x="22" y="18">PostgreSQL</text>
+  </g>
+  <g transform="translate(243, 407)" class="float-group-0">
+    <rect class="badge-box" width="74" height="28" rx="6" fill="#4479A1" fill-opacity="0.18" stroke="#4479A1" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#4479A1" />
+    <text class="badge-txt" x="22" y="18">MySQL</text>
+  </g>
+  <g transform="translate(327, 407)" class="float-group-1">
+    <rect class="badge-box" width="83" height="28" rx="6" fill="#47A248" fill-opacity="0.18" stroke="#47A248" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#47A248" />
+    <text class="badge-txt" x="22" y="18">MongoDB</text>
+  </g>
+  <g transform="translate(420, 407)" class="float-group-2">
+    <rect class="badge-box" width="116" height="28" rx="6" fill="#DC382D" fill-opacity="0.18" stroke="#DC382D" stroke-width="1.3" />
+    <circle cx="12" cy="14" r="4" fill="#DC382D" />
+    <text class="badge-txt" x="22" y="18">Redis Cache</text>
+  </g>
+</svg>
